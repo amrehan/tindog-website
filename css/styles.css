@@ -78,7 +78,6 @@ p {
     padding: 7% 15%;
     background-color: #fff;
     position: relative;
-    z-index: 1;
 
 
 }
@@ -131,3 +130,44 @@ p {
     padding: 100px;
 }
 
+@media (max-width: 1028px){
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+#cta {
+    background-color: #ff4c68;
+    font-family: "Montserrat-Black";
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+#bottom-heading {
+   padding: 1% 15% ;
+   font-size: 3rem;
+   line-height: 1.5;
+   margin-top: 50px;
+}
+
+#footer {
+    text-align: center;
+}
+
+.footer-icons {
+    margin: 10px 10px;
+}
+
+.footer-icons:hover {
+    color: #ff4c68;
+}
